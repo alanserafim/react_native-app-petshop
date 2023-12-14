@@ -52,7 +52,7 @@ const Item = ({ nome, preco, descricao }) => {
           </Text>
         </View>
       </View>
-      <Botao acao={()=>{}} valor="Adicionar" />
+      <Botao acao={()=>{}} valor="Adicionar ao Carrinho" />
     </View>}
     <View style={estilos.divisor} />
     </>
