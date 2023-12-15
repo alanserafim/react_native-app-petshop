@@ -1,4 +1,4 @@
-import { KeyboardAvoidingView, Platform, SafeAreaView, StatusBar } from 'react-native'
+import { KeyboardAvoidingView, SafeAreaView, StatusBar } from 'react-native'
 import React from 'react'
 import estilosGlobal, { cores } from '../../global/estilos'
 import estilos from './estilos'

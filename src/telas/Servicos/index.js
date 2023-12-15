@@ -6,18 +6,13 @@ import estilosGlobal from '../../global/estilos'
 
 const Servicos = () => {
   return (
-      <KeyboardAvoidingView
-        //behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-        style={estilosGlobal.preencher}
 
-      >
         <FlatList
           data={servicos}
           renderItem={({ item }) => <Item {...item} />}
           keyExtractor={({ id }) => String(id)}
           removeClippedSubviews={false}
           />
-      </KeyboardAvoidingView>
   )
 }
 

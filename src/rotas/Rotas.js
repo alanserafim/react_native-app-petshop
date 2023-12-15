@@ -33,7 +33,7 @@ const Rotas = () => {
             keyboardHidesTabBar: true,
         }}
       >
-        <Tab.Screen name="Serviços" component={Servicos} />
+        <Tab.Screen name="Servicos" component={Servicos} />
         <Tab.Screen name="Carrinho" component={Carrinho} />
       </Tab.Navigator>
     </NavigationContainer>
