@@ -1,22 +1,15 @@
-import { SafeAreaView, StyleSheet, StatusBar } from 'react-native';
-import Servicos from './src/telas/Servicos';
+import React from 'react';
 import 'intl';
 import 'intl/locale-data/jsonp/pt-BR';
-import estilosGlobal from './src/global/estilos';
-import Carrinho from './src/telas/Carrinho';
+import Rotas from './src/rotas/Rotas';
+import TelaPadrao from './src/componentes/TelaPadrao';
 
 export default function App() {
   return (
-    <SafeAreaView style={estilosGlobal.preencher}>
-      <StatusBar />
-      <Carrinho />
-    </SafeAreaView>
-  );
+    <TelaPadrao>
+      <Rotas />
+    </TelaPadrao>
+  )
 }
-const styles = StyleSheet.create({
-  container: {
-    
-  }
-})
 
 

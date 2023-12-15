@@ -9,7 +9,7 @@ const Carrinho = () => {
   const total = carrinho.reduce((soma, { preco, quantidade }) => soma + (preco * quantidade), 0)
 
   return (
-    <TelaPadrao>
+    <>
       <StatusCarrinho total={total} />
       <FlatList
         data={carrinho}
@@ -17,7 +17,7 @@ const Carrinho = () => {
         keyExtractor={({ id }) => String(id)}
         removeClippedSubviews={false}
       />
-    </TelaPadrao>
+    </>
   )
 }
 
